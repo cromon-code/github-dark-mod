@@ -1,0 +1,21 @@
+{
+  "name": "github-dark-mod",
+  "displayName": "GitHub Dark MOD",
+  "description": "GithubDark, which uses bold and italics to make it easier to read.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.91.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "GitHub Dark MOD",
+        "uiTheme": "vs-dark",
+        "path": "./themes/GitHub Dark MOD-color-theme.json"
+      }
+    ]
+  }
+}
